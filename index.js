@@ -3,7 +3,6 @@ const mineflayer = require('mineflayer');
 function startBot() {
   const bot = mineflayer.createBot({
     host: 'dio_craft.aternos.me',
-    port: 25565,
     username: 'AFK_Bot',
     version: '1.20.1',
   });
